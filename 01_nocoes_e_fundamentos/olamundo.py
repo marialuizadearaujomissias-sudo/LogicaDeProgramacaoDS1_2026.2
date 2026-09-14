@@ -1,2 +1,7 @@
 print ("Maria Luiza")
 print ("Ola mundo!")
+nome= input ("qual seu nome?")
+dia_do_nascimento= input ("qual o dia do seu nascimento?")
+mes_do_nascimento= input ("qual mes do seu nascimento?")
+ano_do_nascimento= input ("qual ano do seu nascimento?")
+print(f"dia_do_nascimento:{dia_do_nascimento}")
