@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor=float(input("Digite o valor total:(R$"))
+taxa=valor*0.10
+valorfinal=valor+taxa
+print(f"{valorfinal:.2f}")
