@@ -12,3 +12,5 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+distancia=str(input("Digite a distancia percorrida"))
+combustivel=int(input("Digite o total de combustivel"))
