@@ -1,0 +1,1 @@
+calcular_acrescimo = lambda valor:valor * 1.10
