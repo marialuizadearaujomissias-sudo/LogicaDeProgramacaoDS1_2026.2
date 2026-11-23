@@ -12,3 +12,19 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+itens=[
+"mouse", "monitor", "teclado"
+"cabos", "notebook", "gabinete"
+]
+itens_unico=set(itens)
+print("Lista de itens unicos:", itens)
+
+inventario={
+"mouse": 4,
+"monitor":4,
+"teclado":5,
+"cabos":10,
+"notebook": 12,
+}
+print("Quantidade de mouses: ", inventario.get("mouse"))
+print("Quantidade de gabinetes: ", inventario.get("item não encontrado"))

@@ -9,3 +9,9 @@ exibindo uma mensagem explicativa sobre imutabilidade.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+cidades = ("Tianguá", "São Benedito")
+
+try:
+    cidades[0]="São Benedito"
+except TypeError:
+    print("Ocorreu um erro")
